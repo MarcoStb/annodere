@@ -7,5 +7,79 @@
     <string name="activate">Zum Aktivieren den Bildschirm berühren</string>
     <string name="service_description">Dieser Service lässt Nachrichten abfangen, die in der Statusbar erscheinen.</string>
     <string name="options">Einstellungen</string>
+    <string name="connect">Verbinden</string>
+    <string name="manual_ip">manuell</string>
+    <string name="zeroconf_ip">automatisch</string>
+    <string name="filter_tbd">Filter folgt in Kürze</string>
+    <string name="default_ip">192.168.1.18</string>
+    <string name="not_connected">nicht verbunden</string>
+    <string name="connected">verbunden!</string>
+    <string name="state_inactive">Status: INAKTIV!</string>
+    <string name="state_active">Status: aktiv.</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="help">Installationshilfe</string>
+    <string name="installhelp">Installationshilfe für den "Message Streamer“
+
+
+Vorabhinweise:
+
+Bitte befolgen Sie die Installationshilfe Schritt für Schritt, wie hier vorgegeben. Für durch Missachtung der Hinweise entstandene Schäden übernehmen wir keinerlei Haftung.
+
+
+1. Downloadhinweise:
+
+=> Bitte laden Sie zunächst unter folgendem Link die .apk (Link hier einfügen) für Ihr Smartphone herunter.
+=> Und hier (Link hier einfügen) das Paket für den Linux-Desktop.
+Hierfür sind noch folgende Pakete notwendig:
+Paketnamen: 
+qt4-dev
+qt4-dev-bin
+libmicrohttpd-dev
+jsoncpp-dev 
+(Je nach Version können die Bibliotheken „–devel“ anstatt „–dev“ heißen.)
+Diese installieren Sie über „sudo apt-get install 'Paketname'“ über die Kommandozeile.
+
+Alternative für den Android-Teil:
+Wenn Sie den Android-Teil des Message Streamers über eine Programmierumgebung installieren wollen, laden Sie bitte unter folgendem Link (Link hier einfügen) das Android-Projekt herunter. Wir empfehlen die Programmierumgebung Eclipse (Link zur Homepage von Eclipse/Download) oder Android Studio (Link zur Homepage von Android Studio).
+
+
+2. Installation der App auf Ihrem Smartphone:
+
+Als nächstes kopieren Sie über ein USB-Kabel die .apk auf ihr Smartphone und installieren diese über einen Dateimanager auf Ihrem Android-Gerät, indem Sie die .apk auswählen und auf „Installieren" tippen.
+
+Alternative für den Android-Teil:
+Alternativ dazu (wenn Sie bspw. eine Programmierumgebung nutzen) kompilieren Sie das Android-Projekt über ihre Programmierumgebung, welches sich anschließend selbstständig auf Ihrem über USB-Kabel angeschlossenes Smartphone installiert.
+
+
+
+3. Vorbereitungen für die Verbindung:
+
+Falls sich Desktop-PC und Smartphone im selben WLAN-Netzwerk befinden, überspringen Sie diesen Teil.
+Wenn nicht lesen Sie hier (Link zu „Wie stelle ich eine Teathering-Verbindung her“) wie Sie Ihre Geräte in ein Netz bekommen.
+
+
+4. Installation der Desktop-Applikation:
+
+Entpacken Sie das zunächst komprimierte Paket mit der Desktop-Applikation in einem Ordner Ihrer Wahl auf Ihrem Desktop-Linux-PC. Öffnen Sie die Kommandozeile Ihres Rechners (auch Terminal genannt, z.B. über Strg + Alt + t). 
+Wechseln Sie in den nun entpackten Ordner und anschließend in den Ordner /desktop. 
+Führen Sie nun den Kommandozeilenbefehl „qmake-qt4“ aus um ein Makefile zu erzeugen.
+Führen Sie nun den Befehl „make“ aus um das Programm zu installieren.
+Um die Desktop-Applikation zu starten, müssen Sie nun den Befehl „./ms“ eingeben.
+
+
+5. Starten der Android-App und herstellen der Verbindung:
+
+Drücken Sie den nach der Installation auf Ihrem Android-Smartphone erscheinenden Button mit der Aufschrift „Öffnen“ oder öffnen Sie die App über Ihr Hauptmenü.
+Um das Programm nutzen zu können, müssen Sie jetzt noch den Button „Aktivieren“ betätigen. Im erscheinenden Einstellungsmenü muss ein Häkchen im Feld hinter „Message Streamer“ gesetzt werden. Tippen Sie jetzt einmal auf „Zurück“ und Sie befinden sich wieder im Anfangsbildschirm der Applikation.
+Um eine Verbindung aufzubauen, klicken Sie auf der Startseite der Applikation auf
+„Einstellungen“ und geben im folgenden Textfeld die IP-Adresse Ihres Computers ein, welche Sie zuvor mit dem Befehl „ifconfig“ auf Ihrem Desktop-PC in der Kommandozeile abfragen. Mit dem Betätigen des „Verbinden“-Buttons wird automatisch eine Verbindung aufgebaut und sobald Sie eine Nachricht auf dem Android-Smartphone erhalten, erscheint ein Fenster mit dem Inhalt der Nachricht auf Ihrem Computer.
+
+
+Über Ihre Rückmeldung im App-Store (Link hier einfügen) oder über eine E-Mail an (Email hier einfügen) würden wir uns sehr freuen. Codevorschläge bitte an (Email hier einfügen).
+
+Wir wünschen Viel Spaß bei der Nutzung des Message Streamers! ;-D
+Mögen Sie nie wieder Ihre Nachrichten verpassen.
+        
+    </string>
 
 </resources>
